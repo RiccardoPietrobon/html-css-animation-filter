@@ -105,3 +105,24 @@
     100%{right: 20%;}
 }
 /* ex13 */
+.ex-13-top-white{
+    animation: top-white-13 3s infinite;
+}
+@keyframes top-white-13{
+    0%{left: -10%; top: -10px;}
+    25%{left: 90%; top: -10px;}
+    50%{left: 90%; top: 60px;}
+    75%{left: -10%; top: 60px;}
+    100%{left: -10%; top: -10px;}
+}
+
+.ex-13-bottom-white{
+    animation: bottom-white-13 3s infinite;
+}
+@keyframes bottom-white-13{
+    0%{right: -20%; bottom: -10px;}
+    25%{right: 80%; bottom: -10px;}
+    50%{right: 80%; bottom: 60px;}
+    75%{right: -20%; bottom: 60px;}
+    100%{right: -20%; bottom: -10px;}
+}
