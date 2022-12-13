@@ -56,3 +56,33 @@
     filter: blur(2px) grayscale(50%);
     border-radius: 30px;
 }
+/* ex9 */
+.ex-9-img{
+    transition: 4s;
+}
+.ex-9-img:hover{
+    filter: blur(2px) grayscale(50%);
+    border-radius: 30px;
+    margin: 0;
+    width: 600px;
+}
+/* ex10 */
+.ex-10-icon{
+    animation-name: animation-10;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation-10{
+    0% {transform: rotate(-360deg);}
+}
+/* ex11 */
+.ex-11-icon:hover{
+    animation-name: animation-11;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation-11{
+    0% {transform: rotate(0deg);}
+    90% {transform: rotate(270deg);}
+    100% {transform: rotate(0deg);}
+}
